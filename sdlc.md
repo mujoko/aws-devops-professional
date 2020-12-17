@@ -16,28 +16,28 @@ https://aws.amazon.com/blogs/devops/validating-aws-codecommit-pull-requests-with
 #### Code Deploy
 https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file-structure-hooks.html#appspec-hooks-ecs
 [Continuous Delivery](images/hook.PNG)
+#### Code Pipeline
+https://docs.aws.amazon.com/codepipeline/latest/userguide/best-practices.html
 
 ## CD
 ![Continuous Delivery](images/cd.PNG)
 
 
+## Reference
+MUST READ - Blue/Green Deployments on AWS
+https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf
 
-Lifecycle event name	In-place deployment¹	Blue/green deployment: Original instances	Blue/green deployment: Replacement instances	Blue/green deployment rollback: Original instances	Blue/green deployment rollback: Replacement instances
-ApplicationStop	✓		✓		
-DownloadBundle²	✓		✓		
-BeforeInstall	✓		✓		
-Install²	✓		✓		
-AfterInstall	✓		✓		
-ApplicationStart	✓		✓		
-ValidateService	✓		✓		
-BeforeBlockTraffic	✓	✓			✓
-BlockTraffic²	✓	✓			✓
-AfterBlockTraffic	✓	✓			✓
-BeforeAllowTraffic	✓		✓	✓	
-AllowTraffic²	✓		✓	✓	
-AfterAllowTraffic	✓		✓	✓	
-¹Also applies to the rollback of an in-place deployment.
+RECOMMENDED - Practicing Continuous Integration Continuous Delivery on AWS
+https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf
 
-² Reserved for CodeDeploy operations. Cannot be used to run scripts.
+RECOMMENDED - Jenkins on AWS
+https://d1.awsstatic.com/whitepapers/DevOps/Jenkins_on_AWS.pdf
 
-Run order of hooks in a deployment
+OPTIONAL - Introduction to DevOps on AWS
+https://d1.awsstatic.com/whitepapers/AWS_DevOps.pdf
+
+OPTIONAL - Development and Test on AWS
+https://d1.awsstatic.com/whitepapers/aws-development-test-environments.pdf
+
+
+
