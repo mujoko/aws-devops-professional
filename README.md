@@ -11,8 +11,8 @@ An overview of the exam:
 # Outline
 ![Exam Outline](images/outline.PNG)
 ## Preparation
-* [Domain 1 - SDLC Automation](sdlc.md) 
-
+- [Domain 1 - SDLC Automation](sdlc.md) 
+- [Infrastructure as a  code](iscode.md.md)
 
 ## Whitepaper 
 https://d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf
